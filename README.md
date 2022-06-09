@@ -3,6 +3,17 @@
 ## Introduction
 Existing commonsense knowledge bases often organize tuples in an isolated manner, which is deficient for commonsense conversational models to plan the next steps. To fill the gap, we curate a large-scale multi-turn human-written conversation corpus, and create the first Chinese commonsense conversation knowledge graph which incorporates both social commonsense knowledge and dialog flow information. To show the potential of our graph, we develop a graph-conversation matching approach, and benchmark two graph-grounded conversational tasks. The paper "C3KG: A Chinese Commonsense Conversation Knowledge Graph" has been accepted by Findings of 60th Annual Meeting of the Association for Computational Linguistics(Findings of ACL 2022). For details, https://aclanthology.org/2022.findings-acl.107/
 
+If you use our codes or your research is related to our paper, please kindly cite our paper:
+```bib
+@inproceedings{li2022c3kg,
+  title={C3KG: A Chinese Commonsense Conversation Knowledge Graph},
+  author={Li, Dawei and Li, Yanran and Zhang, Jiayi and Li, Ke and Wei, Chen and Cui, Jianwei and Wang, Bin},
+  booktitle={Findings of the Association for Computational Linguistics: ACL 2022},
+  pages={1369--1383},
+  year={2022}
+}
+```
+
 ## Resource Released
 We put all of our released resource [here](https://drive.google.com/drive/folders/1ScEEbRjpUgc2JxmQ6ITwTwIQXIKSUjlI?usp=sharing), including __C3KG__,  __ATOMIC_ZH__ and __CConv__ dataset
 
